@@ -46,32 +46,38 @@ This Terraform configuration deploys a set of resources in Azure including
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
-
+   git clone https://github.com/sandeepk1210/azure-application-gateway.git
+   cd azure-application-gateway
    ```
 
 2. Initialize Terraform:
 
-````bash
+```bash
 terraform init
+```
 
 3. Modify Variables (if necessary):
-Ensure you update subscription_id, client_id, client_secret, and tenant_id in provider.tf or configure these as environment variables.
+   Ensure you update subscription_id, client_id, client_secret, and tenant_id in provider.tf or configure these as environment variables.
 
 4. Plan the Infrastructure:
+
 ```bash
 terraform plan
+```
 
 5. Apply the Configuration:
+
 ```bash
 terraform apply
+```
 
 Confirm with yes to create the resources.
 
 6. Outputs: After a successful apply, Terraform will output:
-VM names
-Public IP addresses
-Admin username
-Access instructions for each VM
-````
+
+```bash
+   VM names and its public IPs
+   App Gateway Public IPs
+   Admin username
+   Access instructions for accessing images and videos path using application gateway
+```
