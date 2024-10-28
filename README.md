@@ -45,10 +45,10 @@ This Terraform configuration deploys a set of resources in Azure including
 
 1. **Clone the repository**:
 
-   ```bash
-   git clone https://github.com/sandeepk1210/azure-application-gateway.git
-   cd azure-application-gateway
-   ```
+```bash
+git clone https://github.com/sandeepk1210/azure-application-gateway.git
+cd azure-application-gateway
+```
 
 2. Initialize Terraform:
 
@@ -76,8 +76,8 @@ Confirm with yes to create the resources.
 6. Outputs: After a successful apply, Terraform will output:
 
 ```bash
-   VM names and its public IPs
-   App Gateway Public IPs
-   Admin username
-   Access instructions for accessing images and videos path using application gateway
+- VM names and its public IPs
+- App Gateway Public IPs
+- Admin username
+- Access instructions for accessing images and videos path using application gateway
 ```
